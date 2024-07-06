@@ -1,0 +1,183 @@
+layers:
+  default:
+  - {t: ']', h: LEFT GUI}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - {t: '`', h: LEFT CONTROL}
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: Ctrl}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: LEFT GUI}
+  - {t: '''', h: RIGHT CONTROL}
+  - {t: '-', h: LEFT ALT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: RIGHT ALT}
+  - {t: ↹, h: raise}
+  - {t: ESCAPE, h: LSHIFT}
+  - {t: ␣, h: lower}
+  - {t: ENTER, h: lower}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
+  - {t: DELETE, h: raise}
+  lower:
+  - {t: F1, h: Gui}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: +, h: Ctrl}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: '-', h: Ctrl}
+  - {t: '=', h: Alt}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - Alt
+  - {t: ↹, h: raise}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: DELETE, h: raise}
+  raise:
+  - {t: KP NUM, h: Gui}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - Vol Up
+  - Home
+  - Print Scrn
+  - Page Up
+  - SLCK
+  - CLCK
+  - {t: '=', h: Ctrl}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - MUTE
+  - ←
+  - ↑
+  - →
+  - Insert
+  - {t: APP, h: Ctrl}
+  - Alt
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - Vol Down
+  - End
+  - ↓
+  - Page Down
+  - Pause Break
+  - Alt
+  - {t: KP 0, type: held}
+  - ESCAPE
+  - {t: ␣, h: adjust}
+  - {t: ENTER, h: adjust}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {type: held}
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: Esc
+- p: [22, 23]
+  k: ENTER
+- p: [10, 11]
+  k: ⌫
+- p: [10, 11]
+  k: ⌦
+  l: [lower]
